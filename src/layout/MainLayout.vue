@@ -2,7 +2,6 @@
 import Head from "../components/Head.vue";
 import Navigation from "../components/Navigation.vue";
 import UserLayout from "../layout/UserLayout.vue";
-
 </script>
 <template>
   <div class="drawer">
@@ -10,7 +9,6 @@ import UserLayout from "../layout/UserLayout.vue";
     <div class="drawer-content">
       <Head></Head>
       <UserLayout></UserLayout>
-
       <router-view></router-view>
     </div>
     <div class="drawer-side">
