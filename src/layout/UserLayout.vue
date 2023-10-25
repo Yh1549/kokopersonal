@@ -5,13 +5,15 @@ const route = useRoute();
 </script>
 <template>
   <div class="w-full flex flex-col justify-center">
-    <div class="w-full flex relative h-72">
+    <div
+      class="w-full flex relative h-72 justify-center border-primary border-y-8"
+    >
       <iframe
-        class="absolute w-full h-full"
+        class="w-2/3 h-full"
         src="https://my.spline.design/untitled-18d75517c6c7d24ac267703c26c745f5/"
       ></iframe>
-      <div class="avatar m-auto">
-        <div class="w-48 rounded-full">
+      <div class="avatar m-auto absolute -bottom-5">
+        <div class="w-36 rounded-full">
           <img src="../assets/pic-1.jpg" />
         </div>
       </div>
